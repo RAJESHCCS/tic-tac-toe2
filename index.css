@@ -1,0 +1,110 @@
+.container{
+	/* background-color: aquamarine */
+	/* background-image:url("tic.jpeg"); */
+
+	/* background-repeat:no-repeat; */
+	background-color: aquamarine;
+	position: centre;
+	
+}
+h1, h2, h3 {
+	text-align: center;
+	
+}
+
+h1 {
+	font-size: 2.5em;
+	margin: 5px;
+	text-decoration-style: double;
+	-webkit-animation: colorchange 20s infinite alternate;
+}
+	@keyframes colorchange{
+	0% {
+		color: blue;
+	}
+	10% {
+		color: #8e44ad;
+	}
+	20% {
+		color: #1abc9c;
+	}
+	30% {
+		color: #d35400;
+	}
+	40% {
+		color: blue;
+	}
+	50% {
+		color: #34495e;
+	}
+	60% {
+		color: blue;
+	}
+	70% {
+		color: #2980b9;
+	}
+	80% {
+		color: #f1c40f;
+	}
+	90% {
+		color: #2980b9;
+	}
+	100% {
+		color: pink;
+	}
+}
+
+
+h2{
+	padding: 10px;
+	width: 300px;
+	margin: 0 auto 10px;
+}
+
+h3 {
+	background-color: rgb(230, 77, 77);
+	padding: 10px;
+	width: 100px;
+	margin: 0 auto 10px;
+}
+
+.row {
+	display: flex;
+	width: 606px;
+	height: 606px;
+	flex-wrap: wrap;
+	margin: auto;
+	font-family: "Permanent Marker";
+	border-radius: 10px;
+}
+
+.col {
+	width: 200px;
+	height: 200px;
+	background-color: rgba(192, 122, 43, 0.6);
+	border: 1px solid black;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 2 2 2 2 px;
+	
+	font-size: 8em;
+  text-align: center;
+}
+.restart{
+    /* border: 2px solid wheat; */
+    /* color: white; */
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    background-color: hsl(64, 75%, 52%);
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    width: 260px;
+    height: 50PX;
+
+}
